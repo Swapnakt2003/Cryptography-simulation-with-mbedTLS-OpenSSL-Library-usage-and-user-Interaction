@@ -1,0 +1,21 @@
+[ req ]
+default_bits       = 3072
+default_md         = sha384
+default_keyfile    = alice.key
+distinguished_name = req_distinguished_name
+
+[ req_distinguished_name ]
+countryName                     = Country Name (2 letter code)
+countryName_default             = US
+stateOrProvinceName             = State or Province Name (full name)
+stateOrProvinceName_default     = California
+localityName                    = Locality Name (eg, city)
+localityName_default            = San Francisco
+0.organizationName              = Organization Name (eg, company)
+0.organizationName_default      = My Company
+organizationalUnitName          = Organizational Unit Name (eg, section)
+organizationalUnitName_default  = My Division
+commonName                      = Common Name (eg, your name or your server's hostname)
+commonName_default              = Alice
+emailAddress                    = Email Address
+emailAddress_default            = alice@example.com
